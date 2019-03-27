@@ -29,7 +29,7 @@ public class InTrainingCardDAO {
 					+ "dtr.trainer_request_id = dttr.dtt_trainer_request_id "
 					+ "join EMPLOYEE ct on ct.employee_id = dttr.trainer_id "
 					+ "join EXECUTIVE_WORKFLOW_STATUS  ex on ex.training_request_id = tr.training_request_id"
-					+ " where s.status = 230", 
+					+ "", 
 				new Object[]{},new InTrainingCardMapper());
 		return InTrainingCardList;
 	}
@@ -48,10 +48,17 @@ public class InTrainingCardDAO {
 					+ "dtr.trainer_request_id = dttr.dtt_trainer_request_id "
 					+ "join EMPLOYEE ct on ct.employee_id = dttr.trainer_id "
 					+ "join EXECUTIVE_WORKFLOW_STATUS  ex on ex.training_request_id = tr.training_request_id"
-					+ " where s.status = 230", 
+					+ " ", 
 				new Object[]{},new InTrainingCardMapper());
 		return inTrainingCard.get(0);
 	}
-	
+	public static void main(String s[])
+	{
+		InTrainingCardDAO sld = new InTrainingCardDAO();
+		List<InTrainingCard> sls = sld.getInTrainingCardList();
+		for(InTrainingCard a : sls)
+		System.out.println(a);
+		
+	}
 
 }

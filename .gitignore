@@ -192,3 +192,13 @@ Servers/Tomcat v7.0 Server at localhost-config/context.xml
 Servers/Tomcat v7.0 Server at localhost-config/server.xml
 Servers/Tomcat v7.0 Server at localhost-config/tomcat-users.xml
 Servers/Tomcat v7.0 Server at localhost-config/web.xml
+*.target
+.metadata/.plugins/org.eclipse.datatools.connectivity/driverManagerPreferences.xml
+.metadata/.plugins/org.eclipse.datatools.connectivity/driverStorage.xml
+.metadata/.plugins/org.eclipse.jdt.ui/jdt-images/0.png
+.metadata/.plugins/org.eclipse.jdt.ui/jdt-images/1.png
+.metadata/.plugins/org.eclipse.jdt.ui/jdt-images/2.png
+.metadata/.plugins/org.eclipse.jdt.ui/jdt-images/3.png
+.metadata/.plugins/org.eclipse.jdt.ui/jdt-images/4.png
+.metadata/.plugins/org.eclipse.jdt.ui/jdt-images/5.png
+.metadata/.plugins/org.eclipse.wst.server.core/modules.xml

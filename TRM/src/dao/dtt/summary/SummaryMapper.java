@@ -26,7 +26,7 @@ public class SummaryMapper implements RowMapper<Summary>
 		
 		TrainingRequest request = new TrainingRequest();
 		request.setTraining_request_id(result.getInt("training_request_id"));
-		request.setRequest_training_type(result.getString("request_training_type"));
+		//request.setRequest_training_type(result.getString("request_training_type"));
 		request.setRequest_training_module(result.getString("request_training_module"));
 		sl.setRequest(request);
 		
